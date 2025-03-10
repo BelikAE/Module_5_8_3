@@ -14,8 +14,7 @@ namespace Module_5_8_3
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
-            var mainView = new View(commandData);
-            mainView.ShowDialog();
+
             return Result.Succeeded;
         }
     }
